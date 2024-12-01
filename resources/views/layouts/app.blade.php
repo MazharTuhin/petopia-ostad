@@ -14,7 +14,7 @@
 </head>
 <body class="font-sans">
     
-    @yield('section')
+    @yield('content')
 
 </body>
 </html>

@@ -24,8 +24,8 @@
   
         <!-- secondary nav -->
         <div class="hidden md:flex items-center space-x-2">
-          <a href="" class="py-2 px-4 border border-border-cart rounded-lg">Login</a>
-          <a href="" class="py-2 px-4 bg-primary hover:bg-green-800 text-white rounded-lg transition duration-300">Register</a>
+          <a href="{{ route('login') }}" class="py-2 px-4 border border-border-cart rounded-lg">Login</a>
+          <a href="{{ route('register') }}" class="py-2 px-4 bg-primary hover:bg-green-800 text-white rounded-lg transition duration-300">Register</a>
         </div>
   
         <!-- mobile button goes here -->
@@ -55,8 +55,8 @@
             <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">About Us</a>
         </nav>
         <div class="px-4 space-y-2">
-            <a href="#" class="block py-2 px-4 text-center border border-border-cart text-green-text">Login</a>
-            <a href="#" class="block py-2 px-4 text-center bg-primary text-white rounded">Register</a>
+            <a href="{{ route('login') }}" class="block py-2 px-4 text-center border border-border-cart text-green-text">Login</a>
+            <a href="{{ route('register') }}" class="block py-2 px-4 text-center bg-primary text-white rounded">Register</a>
         </div>
     </div>
   </nav>

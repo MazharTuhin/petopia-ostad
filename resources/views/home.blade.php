@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Home')
 
-@section('section')
+@section('content')
     @include('components.navbar')
     @include('components.hero-area')
     @include('components.explore-section')
